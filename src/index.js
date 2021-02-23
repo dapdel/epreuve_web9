@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+//import './index.scss';
+import './styles/main.scss';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './components/Header';
+import Page1 from './components/Page1';
+import Page2 from './components/Page2';
+import Footer from './components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header/>
+    <Page1/>
+    <Page2/>
+    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );

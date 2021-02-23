@@ -1,0 +1,44 @@
+#page2{
+    width:100%;
+    background-color: white;
+    .archives{
+        width: 70%;
+        margin:auto;
+        .text{
+            padding:15px;
+            display: flex;
+            flex-direction: row;
+            h1{
+                font-size: 300%;
+                font-weight: normal;
+            }
+            span{
+                color:$color_1;
+                font-weight: bold;
+            }
+            .splotch{
+                position: relative;
+            }
+            img{
+                position: absolute;
+                width:300px;
+                top:15%;
+                right:15%;
+
+                border-radius: 150px;
+            }
+        }
+
+
+
+
+    button{
+        background-color: $color_1;
+        border:none;
+        color: white;
+        border-radius: 15px;
+        padding:4px 30px;
+    }
+    }
+
+}

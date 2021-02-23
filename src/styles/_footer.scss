@@ -1,0 +1,14 @@
+footer{
+    background-color: $color_footer;
+    height:60px;
+   text-align: center;
+    a,p{
+        display: inline-block;
+    }
+    a{
+        color:lightblue;
+    }
+    p{
+        color:white;
+    }
+}

@@ -1,0 +1,59 @@
+
+#page1{
+    width:100%;
+    padding:100px 0px;
+    background-color: $color_fond;
+    .centre{
+        position: relative;
+        background-color: white;
+        margin: auto;
+        width:70%;
+        display: flex;
+        flex-direction: row;
+        .intro{
+            width:50%;
+            .text{
+                padding:25px;
+            }
+            .curry{
+            width: 150px;
+            height:150px;
+            border-radius: 75px; 
+            overflow: hidden;
+
+                img{
+                    height:100%;
+                }
+            }
+            button{
+                background-color: $color_1;
+                color: white;
+                border:none;
+                border-radius: 5px;
+                padding:10px 30px;
+            }
+        }
+        .cuistot{
+            width:50%;
+           
+            img{
+                display:block;
+                margin-left:auto;
+                margin-right:auto;
+                //height:100%;
+               width:100%;
+               
+            }
+        }
+
+    }
+    .cercle{
+        position: absolute;
+        right:12%;
+        bottom:240px;
+        background-color: $color_1;
+        width:150px;
+        height:150px;
+        border-radius: 75px;
+    }
+}
