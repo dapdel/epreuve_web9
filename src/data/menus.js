@@ -1,4 +1,4 @@
-const menus = [{jour:"23 février",
+const menus = [{id:0, jour:"23 février",
     entrees:[
     "endive, salade croquante et vinaigrette à l'orange",
     "potage de courge ( selon marché)"],
@@ -7,7 +7,7 @@ const menus = [{jour:"23 février",
     desserts:[
     "cookie au chocolat",
     "salade de fruits frais"]},
-    {jour:"22 février",
+    {id:1, jour:"22 février",
     entrees:[
     "Toast de Labneh et salade verte",
     "soupe de carottes aux fines herbes"],
@@ -16,7 +16,7 @@ const menus = [{jour:"23 février",
     desserts:[
     "Carrot cake amandes, noisettes, citron",
     "Panna Cotta, coulis de poire, spéculos"]},
-    {jour:"19 février",
+    {id:2, jour:"19 février",
     entrees:[
     "Salade de lentilles et feta, vinaigrette au miel",
     "Velouté pois cassés coco"],
@@ -25,7 +25,7 @@ const menus = [{jour:"23 février",
     desserts:[
     "Salade de fruits",
     "Crêpe caramel au beurre salée"]},
-    {jour:"18 février",
+    {id:3, jour:"18 février",
     entrees:[
     "Velouté de potimarron",
     "salade d'hiver composée et vinaigrette à l'orange"],

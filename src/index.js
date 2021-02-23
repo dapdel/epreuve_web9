@@ -1,23 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import './index.scss';
 import './styles/main.scss';
-//import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Header';
 import Page1 from './components/Page1';
 import Page2 from './components/Page2';
 import Footer from './components/Footer';
-//import Popup from './components/Popup';
 
 ReactDOM.render(
   <React.StrictMode>
-  
     <Header/>
     <Page1/>
     <Page2/>
     <Footer/>
-  
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -2,11 +2,9 @@ import menus from '../data/menus';
 import React from 'react';
 // eslint-disable-next-line react/prop-types
 const Popup = ({index,changeVisibility}) => {
-    function revenir(){
-    }
     return(
         <div id="popup">
-            <div><p className="croix" onClick={function () { changeVisibility(false); revenir();}}>X</p></div>
+            <div><p className="croix" onClick={function () { changeVisibility(false);}}>X</p></div>
             <div className="menu">
                 <h2>{menus[index].jour}</h2>
                 <h3>Entrée</h3>
