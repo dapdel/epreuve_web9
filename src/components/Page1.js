@@ -19,10 +19,6 @@ const Page1 = () => {
             }
         }
         console.log(indice);
-
-
-
-
         setPopupIndex(indice);
         setPopupVisible(true);
     }
