@@ -1,6 +1,7 @@
 import React from 'react';
 //import { render } from 'react-dom'
-import { ReactSVG } from 'react-svg'
+import { ReactSVG } from 'react-svg';
+
 const Page2 = () => {
     return(
         <section id="page2">
@@ -18,6 +19,10 @@ const Page2 = () => {
                     </div>
                 </div>
                 <div className="slider">
+                    <img src="images/1.jpg" alt=""></img>
+                    <img src="images/2.jpg" alt=""></img>
+                    <img src="images/3.jpg" alt=""></img>
+                   
 
                 </div>
             </div>

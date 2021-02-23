@@ -1,16 +1,39 @@
 
 #page1{
+    z-index:1;
     width:100%;
     padding:100px 0px;
     background-color: $color_fond;
+    position: relative;
+
+    .cercleLigne{
+        position: absolute;
+        z-index:2;
+        top:8%;
+        left:8%;
+        transform: rotate(-45deg);
+        overflow: hidden;
+        width: 150px;
+        height:150px;
+        border-radius: 75px; 
+        background-color: $color_fond;
+        hr{
+            height:3px;
+            border: none;
+            background-color: $color_1;
+        }
+    }   
+
     .centre{
-        position: relative;
+        position:relative;
+        z-index:3;
         background-color: white;
         margin: auto;
         width:70%;
         display: flex;
         flex-direction: row;
         .intro{
+           
             width:50%;
             .text{
                 padding:25px;
@@ -31,6 +54,7 @@
                 border:none;
                 border-radius: 5px;
                 padding:10px 30px;
+                cursor:pointer;
             }
         }
         .cuistot{
@@ -49,11 +73,13 @@
     }
     .cercle{
         position: absolute;
+        z-index:4;
         right:12%;
-        bottom:240px;
+        bottom:50px;
         background-color: $color_1;
         width:150px;
         height:150px;
         border-radius: 75px;
     }
+   
 }

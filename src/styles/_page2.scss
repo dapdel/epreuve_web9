@@ -1,6 +1,9 @@
+
 #page2{
     width:100%;
     background-color: white;
+    padding-bottom: 40px;
+    
     .archives{
         width: 70%;
         margin:auto;
@@ -21,11 +24,11 @@
             }
             img{
                 position: absolute;
-                width:300px;
+                width:60%;
                 top:15%;
                 right:15%;
 
-                border-radius: 150px;
+                border-radius: 50%;
             }
         }
 
@@ -38,6 +41,15 @@
         color: white;
         border-radius: 15px;
         padding:4px 30px;
+    }
+    .slider{
+   width:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        img{
+            width:33%;
+        }
     }
     }
 
